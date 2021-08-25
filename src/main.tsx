@@ -4,7 +4,6 @@ import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import configureStore from './@redux/configureStore';
 import App from './App';
-import './index.less';
 import theme from './theme';
 const { store } = configureStore();
 
